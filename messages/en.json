@@ -1,0 +1,172 @@
+{
+	"meta": {
+		"title": "Andrii Shevchenko – Web Developer",
+		"description": "Portfolio of Andrii Shevchenko: web projects built with React, Next.js and TypeScript."
+	},
+	"nav": {
+		"projects": "Projects",
+		"skills": "Tech stack",
+		"about": "About",
+		"contact": "Contact",
+		"theme": "Toggle theme"
+	},
+	"hero": {
+		"available": "Open to new roles · All of Austria · available now",
+		"role": "Frontend / Fullstack Developer",
+		"title": "I build web applications with React and Next.js.",
+		"subtitle": "Based near Vienna, Austria. Browse my projects, the code behind them and my latest GitHub activity.",
+		"ctaProjects": "View projects",
+		"ctaCv": "CV (PDF)"
+	},
+	"projects": {
+		"demo": "Live demo",
+		"demoClose": "Close",
+		"demoNewTab": "Open in new tab",
+		"demoHint": "Page not showing?",
+		"caseStudy": "Read case study",
+		"screenshotAlt": "Screenshot of {title}",
+		"galleryPrev": "Previous screenshot",
+		"galleryNext": "Next screenshot",
+		"gallerySlide": "Screenshot",
+		"jobsBoard": {
+			"title": "Jobs Board",
+			"description": "A job board where candidates apply with a CV and cover letter. Includes AI-generated CV summaries, authentication and background jobs."
+		},
+		"kanban": {
+			"title": "Kanban Task Board",
+			"description": "A task management app in plain JavaScript with drag and drop and a delete confirmation dialog."
+		},
+		"movies": {
+			"title": "Movie Website",
+			"description": "A movie browser built with React, with search and detail pages."
+		},
+		"weather": {
+			"title": "Weather Forecast",
+			"description": "A weather app in plain JavaScript with location search, using data from Open-Meteo."
+		}
+	},
+	"jobsBoardCase": {
+		"back": "Back to projects",
+		"title": "Jobs Board",
+		"summary": "A job board built as a complete web application: candidates sign in and apply with a CV and cover letter.",
+		"linkDemo": "Live demo",
+		"demoAccount": {
+			"title": "Demo access",
+			"text": "To try it without signing up, log in with this demo account. It contains no real data.",
+			"email": "Email",
+			"password": "Password",
+			"copy": "Copy",
+			"copied": "Copied"
+		},
+		"linkGithub": "Code on GitHub",
+		"overviewTitle": "What is it about?",
+		"overview": "With the Jobs Board, I built a complete application, from the frontend and database to deployment. I taught myself the stack I needed along the way.",
+		"featuresTitle": "Features",
+		"features": [
+			"Authentication and user accounts",
+			"Applying for jobs with a CV and cover letter",
+			"AI-generated CV summary",
+			"Background jobs that run independently of the request"
+		],
+		"stackTitle": "Technologies and their role",
+		"stack": [
+			{
+				"name": "Next.js, React, TypeScript",
+				"role": "User interface and server logic in one project"
+			},
+			{
+				"name": "Tailwind CSS, shadcn/ui",
+				"role": "Styling and ready-made interface components"
+			},
+			{ "name": "React Hook Form, Zod", "role": "Forms and input validation" },
+			{ "name": "Drizzle ORM", "role": "Database schema and data access" },
+			{ "name": "Neon", "role": "Production database" },
+			{ "name": "Docker", "role": "Local development environment" },
+			{ "name": "Clerk", "role": "Authentication and user management" },
+			{ "name": "Inngest", "role": "Background jobs" },
+			{ "name": "Resend", "role": "Sending emails" },
+			{ "name": "UploadThing", "role": "File uploads" },
+			{ "name": "Google Gemini API", "role": "AI summary of the CV" },
+			{ "name": "Vercel", "role": "Deployment" }
+		],
+		"architectureTitle": "Setup and operation",
+		"architecture": [
+			"The backend runs entirely through Next.js: server code and interface live in the same project, with no separate Node.js server.",
+			"I work with Docker locally, and the production database is hosted on Neon.",
+			"Deployment is done through Vercel."
+		],
+		"challengesTitle": "Challenges",
+		"challenges": [
+			"Problems connecting Inngest to Docker. I checked and adjusted the configuration.",
+			"The database schema did not match the current code. I added the missing columns using Drizzle and updated the Neon database.",
+			"Problems deploying to Vercel. I checked the logs and looked for the causes.",
+			"Job listings initially supported locations only in the USA. I updated the code and database to support other countries as well."
+		],
+		"learnedTitle": "What I Learned",
+		"learned": [
+			"Next.js and TypeScript: I learned how to use React with Next.js and integrate server-side logic into a web application.",
+			"Tailwind CSS and shadcn/ui: I learned how to style user interfaces and use ready-made components.",
+			"React Hook Form and Zod: I learned how to build forms and validate user input.",
+			"Drizzle ORM and Neon: I learned how a database works, how to store data, and how to make changes to the database schema.",
+			"Clerk: I learned how to add user authentication and account management to an application.",
+			"Inngest and Resend: I learned how to run background tasks and send emails.",
+			"UploadThing and Google Gemini API: I learned how to upload files and use AI to summarize resumes.",
+			"Docker and Vercel: I learned how to set up the development environment and deploy an application online."
+		]
+	},
+	"skills": {
+		"title": "Tech stack",
+		"subtitle": "The technologies I work with and have used in my projects.",
+		"groups": {
+			"frontend": "Frontend",
+			"backend": "Backend & data",
+			"integrations": "Integrations",
+			"tools": "Tools"
+		},
+		"learningNote": "Dashed: currently learning."
+	},
+	"github": {
+		"title": "Recent activity",
+		"subtitle": "Live from GitHub: my most recently updated repositories."
+	},
+
+	"about": {
+		"title": "About me",
+		"p1": "I'm a web developer with a bachelor's degree in Computer Engineering. In the past I worked with PHP, Laravel, OpenCart, WordPress and MySQL, including a role as a web developer in 2018–2019. From 2022 to 2024 I worked as a freelance front-end developer with React.",
+		"p2": "After that, I learned German (B1 certificate, currently taking a B2 course) and built my own projects this year. With the Jobs Board, I created a full application using Next.js, Drizzle and Clerk, teaching myself the modern stack along the way. I'm looking for a role in web development.",
+		"facts": {
+			"location": { "label": "Location", "value": "Near Vienna, Austria" },
+			"education": {
+				"label": "Education",
+				"value": "Bachelor's degree in Computer Engineering\nKhmelnytskyi National University, 2014–2018"
+			},
+			"experience": {
+				"label": "Experience",
+				"value": "Freelance Front-End Developer, 2022–2024\nReact, MobX, Figma\n\nWeb Developer, Galaxy*IT, 2018–2019\nPHP, Laravel, OpenCart, WordPress, MySQL"
+			},
+			"languages": {
+				"label": "Languages",
+				"value": "Ukrainian (native)\nRussian (fluent)\nGerman (B1, currently taking a B2 course)"
+			}
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"text": "Have a project or a role in mind? Get in touch.",
+		"direct": "Or reach me directly:",
+		"form": {
+			"name": "Name",
+			"email": "Email",
+			"message": "Message",
+			"send": "Send message",
+			"sending": "Sending …",
+			"success": "Thank you! Your message has been sent, and I'll get back to you soon.",
+			"errorGeneric": "Sorry, that didn't work. Please try again later or email me directly.",
+			"errors": {
+				"name": "Please enter your name (at least 2 characters).",
+				"email": "Please enter a valid email address.",
+				"message": "Please write a message (at least 10 characters)."
+			}
+		}
+	}
+}

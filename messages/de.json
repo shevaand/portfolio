@@ -1,0 +1,182 @@
+{
+	"meta": {
+		"title": "Andrii Shevchenko – Webentwickler",
+		"description": "Portfolio von Andrii Shevchenko: Webprojekte mit React, Next.js und TypeScript."
+	},
+	"nav": {
+		"projects": "Projekte",
+		"skills": "Technologien",
+		"about": "Über mich",
+		"contact": "Kontakt",
+		"theme": "Design wechseln"
+	},
+	"hero": {
+		"available": "Offen für neue Stellen · Ganz Österreich · ab sofort",
+		"role": "Frontend-/Fullstack-Entwickler",
+		"title": "Ich entwickle Webanwendungen mit React und Next.js.",
+		"subtitle": "Ich lebe bei Wien. Hier sehen Sie meine Projekte, den Code dahinter und meine aktuelle GitHub-Aktivität.",
+		"ctaProjects": "Projekte ansehen",
+		"ctaCv": "Lebenslauf (PDF)"
+	},
+
+	"projects": {
+		"demo": "Live-Demo",
+		"demoClose": "Schließen",
+		"demoNewTab": "In neuem Tab öffnen",
+		"demoHint": "Wird die Seite nicht angezeigt?",
+		"caseStudy": "Fallstudie lesen",
+		"screenshotAlt": "Screenshot von {title}",
+		"galleryPrev": "Vorheriger Screenshot",
+		"galleryNext": "Nächster Screenshot",
+		"gallerySlide": "Screenshot",
+		"jobsBoard": {
+			"title": "Jobs-Board",
+			"description": "Eine Stellenbörse, auf der sich Bewerber mit Lebenslauf und Anschreiben bewerben können. Mit KI-Zusammenfassung des Lebenslaufs, Anmeldung und Hintergrundaufgaben."
+		},
+		"kanban": {
+			"title": "Kanban-Board",
+			"description": "Eine Aufgabenverwaltung in reinem JavaScript mit Drag & Drop und Sicherheitsabfrage beim Löschen."
+		},
+		"movies": {
+			"title": "Film-Website",
+			"description": "Eine Filmübersicht mit React, Suchfunktion und Detailseiten."
+		},
+		"weather": {
+			"title": "Wettervorhersage",
+			"description": "Eine Wetter-App in reinem JavaScript mit Ortssuche. Die Daten kommen von Open-Meteo."
+		}
+	},
+	"jobsBoardCase": {
+		"back": "Zurück zu den Projekten",
+		"title": "Jobs-Board",
+		"summary": "Eine Stellenbörse als vollständige Webanwendung: Bewerber melden sich an und bewerben sich mit Lebenslauf und Anschreiben.",
+		"linkDemo": "Live-Demo",
+		"demoAccount": {
+			"title": "Demo-Zugang",
+			"text": "Zum Ausprobieren ohne Registrierung: Melden Sie sich mit diesem Demo-Konto an. Es enthält keine echten Daten.",
+			"email": "E-Mail",
+			"password": "Passwort",
+			"copy": "Kopieren",
+			"copied": "Kopiert"
+		},
+		"linkGithub": "Code auf GitHub",
+		"overviewTitle": "Worum geht es?",
+		"overview": "Mit dem Jobs-Board habe ich eine vollständige Anwendung gebaut: vom Frontend über die Datenbank bis zum Deployment. Den dafür nötigen Stack habe ich mir dabei selbst erarbeitet.",
+		"featuresTitle": "Funktionen",
+		"features": [
+			"Anmeldung und Benutzerkonten",
+			"Bewerbung auf Stellen mit Lebenslauf und Anschreiben",
+			"KI-Zusammenfassung des Lebenslaufs",
+			"Hintergrundaufgaben, die unabhängig von der Anfrage laufen"
+		],
+		"stackTitle": "Technologien und ihre Rolle",
+		"stack": [
+			{
+				"name": "Next.js, React, TypeScript",
+				"role": "Oberfläche und Server-Logik in einem Projekt"
+			},
+			{
+				"name": "Tailwind CSS, shadcn/ui",
+				"role": "Gestaltung und fertige Oberflächen-Bausteine"
+			},
+			{
+				"name": "React Hook Form, Zod",
+				"role": "Formulare und Validierung der Eingaben"
+			},
+			{
+				"name": "Drizzle ORM",
+				"role": "Datenbank-Schema und Zugriff auf die Daten"
+			},
+			{ "name": "Neon", "role": "Datenbank im Produktivbetrieb" },
+			{ "name": "Docker", "role": "Lokale Entwicklungsumgebung" },
+			{ "name": "Clerk", "role": "Anmeldung und Benutzerverwaltung" },
+			{ "name": "Inngest", "role": "Hintergrundaufgaben" },
+			{ "name": "Resend", "role": "E-Mail-Versand" },
+			{ "name": "UploadThing", "role": "Datei-Uploads" },
+			{
+				"name": "Google Gemini API",
+				"role": "KI-Zusammenfassung des Lebenslaufs"
+			},
+			{ "name": "Vercel", "role": "Deployment" }
+		],
+		"architectureTitle": "Aufbau und Betrieb",
+		"architecture": [
+			"Das Backend läuft vollständig über Next.js: Server-Code und Oberfläche liegen im selben Projekt, es gibt keinen separaten Node.js-Server.",
+			"Lokal arbeite ich mit Docker, im Produktivbetrieb liegt die Datenbank bei Neon.",
+			"Das Deployment erfolgt über Vercel."
+		],
+		"challengesTitle": "Herausforderungen",
+		"challenges": [
+			"Probleme bei der Verbindung von Inngest mit Docker. Ich habe die Konfiguration überprüft und angepasst.",
+			"Die Datenbankstruktur hat nicht zum aktuellen Code gepasst. Ich habe die fehlenden Spalten mit Drizzle ergänzt und die Neon-Datenbank aktualisiert.",
+			"Probleme beim Deployment auf Vercel. Ich habe die Logs überprüft und nach den Ursachen gesucht.",
+			"Die Stellenanzeigen unterstützten zunächst nur Standorte in den USA. Ich habe den Code und die Datenbank angepasst, um auch andere Länder zu unterstützen."
+		],
+		"learnedTitle": "Was ich gelernt habe",
+		"learned": [
+			"Next.js und TypeScript: Ich habe gelernt, wie man React mit Next.js verwendet und Server-Logik in eine Webanwendung integriert.",
+			"Tailwind CSS und shadcn/ui: Ich habe gelernt, wie man Benutzeroberflächen gestaltet und fertige Komponenten verwendet.",
+			"React Hook Form und Zod: Ich habe gelernt, Formulare zu erstellen und Eingaben zu überprüfen.",
+			"Drizzle ORM und Neon: Ich habe gelernt, wie eine Datenbank funktioniert, wie man Daten speichert und wie man Änderungen am Datenbankschema vornimmt.",
+			"Clerk: Ich habe gelernt, wie man eine Anmeldung und Benutzerverwaltung in eine Anwendung integriert.",
+			"Inngest und Resend: Ich habe gelernt, wie man Aufgaben im Hintergrund ausführt und E-Mails versendet.",
+			"UploadThing und Google Gemini API: Ich habe gelernt, wie man Dateien hochlädt und KI zur Zusammenfassung von Lebensläufen verwendet.",
+			"Docker und Vercel: Ich habe gelernt, wie man die Entwicklungsumgebung einrichtet und eine Anwendung online veröffentlicht."
+		]
+	},
+	"skills": {
+		"title": "Technologien",
+		"subtitle": "Womit ich arbeite und was ich in meinen Projekten eingesetzt habe.",
+		"groups": {
+			"frontend": "Frontend",
+			"backend": "Backend & Daten",
+			"integrations": "Integrationen",
+			"tools": "Tools"
+		},
+		"learningNote": "Gestrichelt dargestellt: Das lerne ich gerade."
+	},
+	"github": {
+		"title": "Aktuelle Aktivität",
+		"subtitle": "Direkt von GitHub: meine zuletzt bearbeiteten Repositories."
+	},
+
+	"about": {
+		"title": "Über mich",
+		"p1": "Ich bin Webentwickler mit einem Bachelorabschluss in Computer Engineering. Früher habe ich mit PHP, Laravel, OpenCart, WordPress und MySQL gearbeitet, unter anderem 2018–2019 als Webentwickler. Von 2022 bis 2024 war ich freiberuflich als Front-End-Entwickler mit React tätig.",
+		"p2": "Danach habe ich Deutsch gelernt (B1-Zertifikat, aktuell B2-Kurs) und in diesem Jahr meine eigenen Projekte umgesetzt. Mit dem Jobs-Board habe ich eine vollständige Anwendung mit Next.js, Drizzle und Clerk entwickelt und mir den modernen Stack dabei selbst erarbeitet. Ich suche eine Stelle in der Webentwicklung.",
+		"facts": {
+			"location": { "label": "Standort", "value": "Bei Wien, Österreich" },
+			"education": {
+				"label": "Ausbildung",
+				"value": "Bachelor Computer Engineering\nKhmelnytskyi National University, 2014–2018"
+			},
+			"experience": {
+				"label": "Erfahrung",
+				"value": "Freelance Front-End-Entwickler, 2022–2024\nReact, MobX, Figma\n\nWebentwickler, Galaxy*IT, 2018–2019\nPHP, Laravel, OpenCart, WordPress, MySQL"
+			},
+			"languages": {
+				"label": "Sprachen",
+				"value": "Ukrainisch (Muttersprache)\nRussisch (fließend)\nDeutsch (B1, aktuell B2-Kurs)"
+			}
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"text": "Haben Sie ein Projekt oder eine Stelle für mich? Schreiben Sie mir gerne.",
+		"direct": "Oder direkt:",
+		"form": {
+			"name": "Name",
+			"email": "E-Mail",
+			"message": "Nachricht",
+			"send": "Nachricht senden",
+			"sending": "Wird gesendet …",
+			"success": "Danke! Ihre Nachricht ist angekommen, ich melde mich bald.",
+			"errorGeneric": "Das hat leider nicht geklappt. Bitte versuchen Sie es später noch einmal oder schreiben Sie mir direkt per E-Mail.",
+			"errors": {
+				"name": "Bitte geben Sie Ihren Namen ein (mindestens 2 Zeichen).",
+				"email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+				"message": "Bitte schreiben Sie eine Nachricht (mindestens 10 Zeichen)."
+			}
+		}
+	}
+}
